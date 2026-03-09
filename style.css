@@ -141,6 +141,29 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
+/* Particle field */
+.hero-particles {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: #ffffff;
+  animation: particle-rise linear infinite;
+}
+
+@keyframes particle-rise {
+  0%   { transform: translateY(0) translateX(0); opacity: 0; }
+  8%   { opacity: 1; }
+  92%  { opacity: 1; }
+  100% { transform: translateY(-95vh) translateX(var(--drift, 0px)); opacity: 0; }
+}
+
 /* Subtle noise grain */
 .post-hero::after {
   content: '';
