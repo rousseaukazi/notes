@@ -331,18 +331,10 @@ del {
   opacity: 0.65;
 }
 
-/* Code placeholders: {function} */
-code.placeholder {
-  font-family: var(--font-mono);
-  font-size: 0.875em;
-  background: var(--accent-blue-light);
+/* Placeholders: {function} — just blue */
+.placeholder {
   color: var(--accent-blue);
-  padding: 2px 8px;
-  border-radius: 5px;
   font-weight: 500;
-  letter-spacing: -0.01em;
-  white-space: normal;
-  word-break: break-word;
 }
 
 /* "Humans are infinitely unique" — standalone callout */
