@@ -312,6 +312,19 @@ a:hover { text-decoration: underline; }
   margin-top: var(--space-6);
 }
 
+/* Inline pull quote */
+.inline-quote {
+  font-size: var(--text-lg);
+  font-style: italic;
+  color: var(--text-primary);
+  line-height: 1.75;
+  padding: var(--space-4) var(--space-6);
+  border-left: 3px solid var(--bg-card-border);
+  background: var(--bg-secondary);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin: var(--space-4) 0;
+}
+
 /* Strikethrough styling */
 del {
   text-decoration-color: var(--accent-red);
