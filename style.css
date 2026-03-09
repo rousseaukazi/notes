@@ -420,6 +420,8 @@ code.placeholder {
 /* Closing section */
 .post-closing { padding-bottom: var(--space-16); }
 
+.green-yeah { color: var(--accent-green); font-weight: 700; }
+
 /* Final "Fuck yeah." */
 .post-final {
   font-size: clamp(1.4rem, 3.5vw, 2rem) !important;
