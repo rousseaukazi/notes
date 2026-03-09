@@ -45,7 +45,7 @@
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
-body { font-family: var(--font-display); background: var(--bg-primary); color: var(--text-primary); }
+body { font-family: var(--font-display); background: var(--bg-primary); color: var(--text-primary); overflow-x: hidden; }
 img, svg { display: block; max-width: 100%; }
 a { color: var(--accent-blue); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -341,7 +341,8 @@ code.placeholder {
   border-radius: 5px;
   font-weight: 500;
   letter-spacing: -0.01em;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
 }
 
 /* "Humans are infinitely unique" — standalone callout */
@@ -421,6 +422,28 @@ code.placeholder {
 .post-closing { padding-bottom: var(--space-16); }
 
 .green-yeah { color: var(--accent-green); font-weight: 700; }
+
+/* Typecast section dots */
+.typecast-dots {
+  color: var(--text-tertiary) !important;
+  font-size: var(--text-2xl) !important;
+  letter-spacing: 0.3em !important;
+  line-height: 1 !important;
+  margin: var(--space-2) 0 !important;
+}
+
+/* AI callout block */
+.ai-callout {
+  font-size: clamp(1.2rem, 3vw, 1.6rem) !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  background: var(--bg-secondary) !important;
+  border-left: 4px solid var(--accent-blue) !important;
+  padding: var(--space-4) var(--space-6) !important;
+  border-radius: 0 var(--radius) var(--radius) 0 !important;
+  margin: var(--space-6) 0 !important;
+  line-height: 1.45 !important;
+}
 
 /* Final "Fuck yeah." */
 .post-final {
