@@ -238,28 +238,28 @@ a:hover { text-decoration: underline; }
 
 .post-intro {
   padding-top: var(--space-20);
-  padding-bottom: var(--space-8);
+  padding-bottom: var(--space-6);
   border-bottom: 1px solid var(--bg-card-border);
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-4);
 }
 
 .post-intro p {
   font-size: var(--text-lg);
   color: var(--text-secondary);
   line-height: 1.82;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
 }
 .post-intro p:last-child { margin-bottom: 0; }
 
 .post-section {
-  padding: var(--space-4) 0 var(--space-8);
+  padding: var(--space-2) 0 var(--space-4);
 }
 
 .post-section p {
   font-size: var(--text-lg);
   color: var(--text-secondary);
   line-height: 1.82;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
 }
 .post-section p:last-child { margin-bottom: 0; }
 
@@ -275,8 +275,8 @@ a:hover { text-decoration: underline; }
   line-height: 1.12;
   letter-spacing: -0.027em;
   color: var(--text-primary);
-  margin-bottom: var(--space-6);
-  margin-top: var(--space-10);
+  margin-bottom: var(--space-4);
+  margin-top: var(--space-6);
 }
 
 .post-h2 {
@@ -285,8 +285,8 @@ a:hover { text-decoration: underline; }
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: var(--text-primary);
-  margin-bottom: var(--space-6);
-  margin-top: var(--space-10);
+  margin-bottom: var(--space-4);
+  margin-top: var(--space-6);
 }
 
 /* Strikethrough styling */
@@ -313,7 +313,7 @@ code.placeholder {
   font-size: clamp(1.5rem, 4vw, 2.1rem) !important;
   font-weight: 700 !important;
   color: var(--text-primary) !important;
-  margin: var(--space-10) 0 !important;
+  margin: var(--space-6) 0 !important;
   line-height: 1.25 !important;
   letter-spacing: -0.025em !important;
 }
@@ -348,7 +348,7 @@ code.placeholder {
   font-weight: 800 !important;
   color: var(--accent-blue) !important;
   letter-spacing: -0.02em !important;
-  margin: var(--space-12) 0 !important;
+  margin: var(--space-6) 0 !important;
 }
 
 /* Bullet list */
@@ -382,7 +382,7 @@ code.placeholder {
 }
 
 /* Closing section */
-.post-closing { padding-bottom: var(--space-24); }
+.post-closing { padding-bottom: var(--space-16); }
 
 /* Final "Fuck yeah." */
 .post-final {
@@ -400,10 +400,10 @@ code.placeholder {
 
 .lever-section {
   background: var(--bg-secondary);
-  padding: var(--space-20) 0;
+  padding: var(--space-16) 0;
   border-top: 1px solid var(--bg-card-border);
   border-bottom: 1px solid var(--bg-card-border);
-  margin: var(--space-12) 0;
+  margin: var(--space-6) 0;
 }
 
 .archimedes-quote {
