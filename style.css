@@ -238,9 +238,9 @@ a:hover { text-decoration: underline; }
 
 .post-intro {
   padding-top: var(--space-20);
-  padding-bottom: var(--space-12);
+  padding-bottom: var(--space-8);
   border-bottom: 1px solid var(--bg-card-border);
-  margin-bottom: var(--space-16);
+  margin-bottom: var(--space-8);
 }
 
 .post-intro p {
@@ -252,7 +252,7 @@ a:hover { text-decoration: underline; }
 .post-intro p:last-child { margin-bottom: 0; }
 
 .post-section {
-  padding: var(--space-8) 0 var(--space-12);
+  padding: var(--space-4) 0 var(--space-8);
 }
 
 .post-section p {
@@ -275,13 +275,9 @@ a:hover { text-decoration: underline; }
   line-height: 1.12;
   letter-spacing: -0.027em;
   color: var(--text-primary);
-  margin-bottom: var(--space-8);
-  margin-top: var(--space-20);
-  padding-top: var(--space-12);
-  border-top: 1px solid var(--bg-card-border);
+  margin-bottom: var(--space-6);
+  margin-top: var(--space-10);
 }
-
-.post-section:first-child .post-h1 { margin-top: 0; border-top: none; padding-top: 0; }
 
 .post-h2 {
   font-size: clamp(1.3rem, 3.5vw, 1.75rem);
@@ -290,7 +286,7 @@ a:hover { text-decoration: underline; }
   letter-spacing: -0.02em;
   color: var(--text-primary);
   margin-bottom: var(--space-6);
-  margin-top: var(--space-16);
+  margin-top: var(--space-10);
 }
 
 /* Strikethrough styling */
@@ -390,12 +386,12 @@ code.placeholder {
 
 /* Final "Fuck yeah." */
 .post-final {
-  font-size: clamp(2rem, 6vw, 3.8rem) !important;
+  font-size: clamp(1.4rem, 3.5vw, 2rem) !important;
   font-weight: 800 !important;
   color: var(--accent-green) !important;
-  letter-spacing: -0.035em !important;
+  letter-spacing: -0.025em !important;
   line-height: 1.1 !important;
-  margin-top: var(--space-8) !important;
+  margin-top: var(--space-6) !important;
 }
 
 /* ========================================
