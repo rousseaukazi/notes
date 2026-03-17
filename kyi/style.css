@@ -414,6 +414,7 @@ del {
 .post-closing { padding-bottom: var(--space-16); }
 
 .green-yeah { color: var(--accent-green); font-weight: 700; }
+.green-yeah-normal { color: var(--accent-green); font-weight: 400; }
 
 /* Typecast section dots */
 .typecast-dots {
